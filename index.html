@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <!-- Link -->
+  <head>
+    <title>Reaction Test</title>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link rel = 'stylesheet' href = 'style.css'>
+  </head>
+<!-- Body-->
+  <body>
+     <h1 class = 'btn btn-info'>REACTION TEST</h1>
+     <h3 class = 'btn btn-danger' id = 'lives'>LIVES : 3</h3>
+     <center>
+        <div class = 'container'>
+            <div id = 'game_over'>
+              <h1 class = 'btn btn-danger'>GAME OVER</h1>
+                <button onclick = 'retry();' class = 'btn btn-warning'>RETRY</button>
+            </div>
+     <button onclick = 'check();' id = 'btn_status'></button>
+      <hr>
+     <button onclick = 'start();' class = 'btn btn-success' id = 'start'>Start</button>
+    </div>
+     </center>
+    <script src = 'main.js'></script>
+  </body>
+</html>

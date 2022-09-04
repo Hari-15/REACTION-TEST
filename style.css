@@ -1,0 +1,47 @@
+h1 {
+  width : 100% !important;
+  margin-top : 0px !important;
+  font-size : 50px !important;
+}
+
+body {
+  background-color: yellow;
+}
+
+.container {
+    padding : 200px !important;
+}
+
+#lives {
+  float : left;
+  visibility : hidden;
+}
+
+#btn_status {
+  visibility : hidden;
+  background-color: orangered;
+  border: 3px solid orangered;
+  color : white;
+  font-size : 40px;
+}
+
+#start { 
+  font-size : 30px !important;
+}
+
+#btn_status:hover {
+  background-color: red;
+  border : 3px solid red;
+}
+
+.btn-warning {
+  margin-top : 50px !important;
+  font-size : 30px !important;
+}
+
+#game_over {
+  visibility : hidden;
+}
+
+
+
